@@ -1,0 +1,26 @@
+.titulo{color: rgb(255, 255, 255); 
+        text-align: center; 
+        font-family: sans-serif; 
+        font-weight: 800;
+        font-size: 200%;}
+.hipervinculos{background-color: rgb(30, 135, 228); 
+                color: blue;}
+body{  background: rgb(131,58,180);
+        background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);  }
+#principal{font-weight: 800;
+        font-family: 'Times New Roman', Times, serif;}
+
+ .container {
+                display: flex;
+              }
+          
+.paragraph {
+                flex: 1;
+                text-align: justify;
+                margin: 2cm;
+                font-size: 120%;
+              }
+          
+ .image {
+                flex: 1;}
+#pepper{width="20px" height= auto}
