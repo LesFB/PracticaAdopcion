@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Adopción</title>
+    <link href="./assets/styles/formulario.css" rel="stylesheet">
+</head>
+    <h1>Adopción</h1>
+    <form>
+        <label>Nombre(s): </label>
+        <input type="text" required >
+        <br>
+        <br>
+        <label>Apellidos: </label>
+        <input type="text" required>
+        <br>
+        <br>
+        <label>Correo electrónico: </label><input type="email" required>
+        <br>
+        <br>
+        <label>Teléfono: </label><input type="tel" placeholder="00-00-00-00">
+        <br>
+        <br>
+
+        <label>¿Has tenido otras mascotas?</label>
+        <label>Si</label><input name="sn" type="radio"><label>No</label><input name="sn"type="radio">
+        <br>
+        <br>
+        <label for="opciones">¿Cuál?</label>
+        <select id="opciones" name="opciones">
+            <option value="opcion1">--</option>
+          <option value="opcion5">Perro</option>
+          <option value="opcion2">Gato</option>
+          <option value="opcion3">Hámster</option>
+          <option value="opcion4">Otro</option>
+       </select>
+          <br>
+          <br>
+          <label>Imagen de identificación oficial</label>
+       <input type="file" accept=".png,.pdf,.jpeg">
+
+       <h2>Registro de tu nuevo amigo</h2>
+       <label>Nombre:</label><input type="text" maxlength="50">
+       <br>
+       <br>
+       <label>Raza:</label><input type="text"
+       
+       <br>
+       <br>
+
+        <p>Escoge el color del nuevo collar de tu mascota :D</p><input type="color">
+        <br>
+        <br>
+        <input type="submit" value="Enviar">
+
+        
+       
+
+    </form>
+<body>
+    
+</body>
+</html>
